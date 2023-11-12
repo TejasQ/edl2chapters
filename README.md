@@ -7,13 +7,13 @@ This is a simple tool to convert an EDL file from video editing apps to a list o
 ## Usage
 
 ```
-edl2chapters [file]
+npx edl2chapters [file]
 ```
 
 This will output chapters to `stdout`, and then you can pipe it to copy or to a new file.
 
 ```
-edl2chapters [file] | pbcopy
+npx edl2chapters [file] | pbcopy
 ```
 
 ## Supported Video Editing Apps
