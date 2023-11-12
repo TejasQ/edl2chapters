@@ -1,5 +1,7 @@
 # `edl2chapters`
 
+![Demo](demo.gif)
+
 This is a simple tool to convert an EDL file from video editing apps to a list of chapters that YouTube can use to create a table of contents for your video.
 
 ## Usage
