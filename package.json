@@ -1,0 +1,30 @@
+{
+  "name": "edl2chapters",
+  "version": "1.0.1",
+  "description": "Convert EDL files from video creation apps to a string of chapters for YouTube etc.",
+  "bin": {
+    "edl2chapters": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "vitest",
+    "prepublishOnly": "npm run build",
+    "build": "rimraf dist && tsup index.ts --platform node --format cjs,esm --out-dir dist"
+  },
+  "files": [
+    "dist",
+    "demo.gif"
+  ],
+  "keywords": [],
+  "author": {
+    "name": "Tejas Kumar",
+    "email": "tejas@tejas.qa"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "rimraf": "^5.0.5",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
