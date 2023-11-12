@@ -1,6 +1,6 @@
 {
   "name": "edl2chapters",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert EDL files from video creation apps to a string of chapters for YouTube etc.",
   "bin": {
     "edl2chapters": "./dist/index.js"
